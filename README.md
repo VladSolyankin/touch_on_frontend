@@ -1,5 +1,48 @@
-# Vue 3 + TypeScript + Vite
+# Приложение для Управления Контактами
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Это приложение для управления контактами, созданное с использованием Vue3 + TypeScript + Pinia + Vitest.
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+## Функции
+
+- Добавление новых контактов
+- Редактирование существующих контактов
+- Удаление контактов
+- Поиск по контактам
+
+## Установка и Запуск
+
+Следуйте этим инструкциям для установки и запуска проекта на вашем локальном компьютере.
+
+### Предварительные условия
+
+Убедитесь, что у вас установлены следующие программы:
+
+- [Node.js и npm](https://nodejs.org/) (Node Package Manager)
+- [Git](https://git-scm.com/)
+
+### Клонирование репозитория
+
+Склонируйте репозиторий на ваш локальный компьютер с помощью Git:
+
+```bash
+git clone https://github.com/ваш-логин/ваш-репозиторий.git
+cd ваш-репозиторий
+```
+
+# Установка зависимостей  
+## Установите все необходимые зависимости с помощью npm:  
+npm install  
+
+# Запуск  
+Режим разработки - **npm run dev**  
+Режим тестирования - **npm run test**  
+
+# Структура проекта  
+**src**/: Основной исходный код приложения.  
+**components**/: Компоненты Vue.  
+**store**/: Состояние и действия Pinia.  
+**types**/: Определения типов TypeScript.  
+**ui**/: Переиспользуемые ui-компоненты.  
+**api**/: Внешнее API JSONPlaceholder.  
+**tests**/: Тесты Vitest.  
+**assets**/: Ассеты (ресурсы) приложения.   
