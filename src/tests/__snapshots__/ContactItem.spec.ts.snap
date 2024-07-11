@@ -1,0 +1,3 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Тесты для ContactItem.vue > Верный рендер контакта 1`] = `"<div data-v-f016766c="" class="contact-item"><span data-v-f016766c="">John Doe</span><span data-v-f016766c="">+71234567890</span><span data-v-f016766c="">john@example.com</span><button data-v-f016766c="">Редактировать</button><button data-v-f016766c="">Удалить</button></div>"`;
